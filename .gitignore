@@ -1,0 +1,73 @@
+# Ignore build and dependency directories
+/.gradle/
+/build/
+/target/
+/out/
+
+# Ignore Java class files and archives
+*.class
+*.jar
+*.war
+*.ear
+
+# IntelliJ
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# Maven
+/dependency-reduced-pom.xml
+
+# Gradle wrapper
+gradle-wrapper.jar
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test data and outputs (large files)
+Tests/Data/
+Tests/**/Data/
+Samples/
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Generated files
+generated/
+
+# Coverage and reports
+/coverage/
+*.lcov
+
+# CI
+/.github/workflows/
+
+# IDE/run configs
+run/
+
+# macOS
+._*
+
+# Windows image file caches
+ehthumbs.db
+Icon?
+
+# JVM crash logs
+hs_err_pid*
+
+# Sensitive local config
+local.properties
